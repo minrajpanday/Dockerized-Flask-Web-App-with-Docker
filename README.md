@@ -1,8 +1,8 @@
-# 🐳 Dockerized Flask Web App with Docker Compose
+#  Dockerized Flask Web App with Docker Compose
 
 This project containerizes a simple Flask application using a production-ready WSGI server (**Gunicorn**) and orchestrates the build and run process using **Docker Compose**.
 
-## 💻 Build and Run
+##  Build and Run
 
 1.  **Build and Start Containers (First Time)**
     This command reads `docker-compose.yml`, builds the image using the `Dockerfile`, and starts the container in the background (`-d`).
@@ -29,7 +29,7 @@ This project containerizes a simple Flask application using a production-ready W
 
 ---
 
-## ✅ Bonus: Testing the Healthcheck
+##  Bonus: Testing the Healthcheck
 
 You added a `/health` route, and Docker Compose is automatically checking it. You can manually verify the endpoint:
 
