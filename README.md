@@ -27,11 +27,6 @@ This project containerizes a simple Flask application using a production-ready W
         ```
         *Expected Output:* `Hello from Flask in Docker!`
 
----
 
-##  Bonus: Testing the Healthcheck
 
-You added a `/health` route, and Docker Compose is automatically checking it. You can manually verify the endpoint:
 
-```bash
-curl http://localhost:8000/health
